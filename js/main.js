@@ -45,3 +45,16 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+const transcriptButton = document.querySelector('#transcriptButton');
+
+transcriptButton.onclick = function() {
+  let showHideText = transcriptButton.textContent;
+  if(showHideText === 'Show comments') {
+    transcriptButton.textContent = 'Hide comments';
+    commentWrapper.style.display = 'block';
+  } else {
+    transcriptButton.textContent = 'Show comments';
+    commentWrapper.style.display = 'none';
+  }
+};
