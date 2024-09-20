@@ -46,15 +46,17 @@ function submitComment() {
   commentField.value = '';
 }
 
-const transcriptButton = document.querySelector('#transcriptButton');
+document.getElementById("transcriptButton").addEventListener('click', function() {
+  const transcript = document.getElementById("audioTranscript");
+  const transcriptButton = document.getElementById("transcriptButton");
 
-transcriptButton.onclick = function() {
-  let showHideText = transcriptButton.textContent;
-  if(showHideText === 'Show comments') {
-    transcriptButton.textContent = 'Hide comments';
-    commentWrapper.style.display = 'block';
-  } else {
-    transcriptButton.textContent = 'Show comments';
-    commentWrapper.style.display = 'none';
+  if(transcriptButton.textContent === "Show Transcript"){
+    transcriptButton.textContent = "Hide Transcript";
+    transcript.style.display = "block";
   }
-};
+  else{
+    transcriptButton.textContent = "Show Transcript"
+    transcript.style.display = "none";
+  }
+
+});
