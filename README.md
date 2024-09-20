@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project contains a fake birdwatching page that I styled according to the specifications.
+This project contains a fake page about bears, which include a variety of features, and ways to make those features accessible.
 
 ## Running
 
@@ -46,4 +46,5 @@ I added a link to return to the top of the page at the bottom. I also set the la
 
 * https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
 * https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+* https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
 * https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
